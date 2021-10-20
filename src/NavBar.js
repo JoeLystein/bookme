@@ -17,19 +17,19 @@ function NavBar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-                <NavDropdown title="Services" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="videoGraphy/">VideoGraphy</NavDropdown.Item>
-                    <NavDropdown.Item href="photography/">PhotoGraphy</NavDropdown.Item>
-                    <NavDropdown.Item href="design">Design</NavDropdown.Item>
+                <Nav.Link href="#features" style={{color: "white"}}>About Us</Nav.Link>
+                <Nav.Link href="#pricing" style={{color: "white"}}>Pricing</Nav.Link>
+                <NavDropdown title="Services" id="collasible-nav-dropdown" style={{color: "white"}}>
+                    <NavDropdown.Item href="videoGraphy/" style={{color: "black"}}>LiveStream Services</NavDropdown.Item>
+                    <NavDropdown.Item href="photography/" style={{color: "black"}}>Network Services</NavDropdown.Item>
+                    <NavDropdown.Item href="design" style={{color: "black"}}>Design</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.4">E-commerce</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
                 <Nav>
-                <Nav.Link href="/book">Book Us</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
+                <Nav.Link href="/book" style={{color: "white"}}>Book Us</Nav.Link>
+                <Nav.Link eventKey={2} href="#memes" style={{color: "white"}}>
                     Contact us
                 </Nav.Link>
                 </Nav>

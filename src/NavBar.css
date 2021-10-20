@@ -1,27 +1,22 @@
 .navbar{
-    background-color:#272727;
-    color: blue;
-    
-    /* width: 150%; */
-    
+    background-color:#19181A;
+    /* a5b458; */
+    /* #59253A; */
+    /* #46344E */
+    /* 242582 */
+    /* #1A1A1D; */
+    /* //#272727; */
 }
 
-
-/* .rest{
-    background-color: ;
-} */
-
-.navbar-brand{
-    /* background-color: black; */
-    /* width: 2%;
-    height:2%;  */
+body{
+    background-color: #9D8D8F;
 }
 
-.Nav-logo{
-    /* width: 4px;
-    height: 4px; */
-}
 a .Nav-logo{
     width: 1cm;
     height: 1cm
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white; 
 }
