@@ -1,0 +1,27 @@
+.navbar{
+    background-color:#272727;
+    color: blue;
+    
+    /* width: 150%; */
+    
+}
+
+
+/* .rest{
+    background-color: ;
+} */
+
+.navbar-brand{
+    /* background-color: black; */
+    /* width: 2%;
+    height:2%;  */
+}
+
+.Nav-logo{
+    /* width: 4px;
+    height: 4px; */
+}
+a .Nav-logo{
+    width: 1cm;
+    height: 1cm
+}

@@ -5,14 +5,20 @@ import {
   Route,
   link
 } from "react-router-dom"; 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import NavBar from "./NavBar"; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from "./NavBar"; 
 import Booking from "./Booking";
 function App() {
   return (
     <div className="App">
-      {/* <NavBar/> */}
-      <Booking/>
+      <NavBar/>
+      <Router>
+        <switch>
+          <Route path="/book">
+            <Booking/>
+          </Route>
+        </switch>
+      </Router>
     </div>
   );
 }
