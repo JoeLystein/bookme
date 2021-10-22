@@ -12,6 +12,7 @@ import Home from "./Pages/Home";
 import Messages from './Components/messages';
 import Galery from './Pages/Galery'
 import './App.css'
+import Footer from './Pages/Footer';
 function App() {
   return (
     <div className="App">
@@ -23,13 +24,22 @@ function App() {
           </Route>
           <Route exact path="/">
               <Home/>
-              <Messages/>
+              {/* <Messages/> */}
+              {/* <Galery/>
+              <Booking/>
+              <Galery/>
+              <Galery/>
+              <Galery/>
+              <Galery/>
+              <Galery/>
+              <Galery/> */}
           </Route>
           <Route exact="/Galery">
               <Galery/>
           </Route>
         </Switch>
       </Router>
+      <Footer/>
     </div>
   );
 }
