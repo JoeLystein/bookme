@@ -1,5 +1,6 @@
 .navbar{
-    background-color:#19181A;
+    background-color: #ffc107; 
+    /* #19181A; */
     /* a5b458; */
     /* #59253A; */
     /* #46344E */
@@ -9,14 +10,22 @@
 }
 
 body{
-    background-color: #9D8D8F;
+    /* background-color: #9D8D8F; */
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-weight: bold;
 }
 
+.navbar-light .navbar-brand:hover{
+    color: red;
+}
 a .Nav-logo{
     width: 1cm;
     height: 1cm
 }
 
 .navbar-dark .navbar-nav .nav-link{
-    color: white; 
+    color: black; 
+    font-weight: bold;
 }

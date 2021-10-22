@@ -10,6 +10,8 @@ import NavBar from "./NavBar";
 import Booking from "./Booking";
 import Home from "./Pages/Home"; 
 import Messages from './Components/messages';
+import Galery from './Pages/Galery'
+import './App.css'
 function App() {
   return (
     <div className="App">
@@ -19,9 +21,12 @@ function App() {
           <Route exact path="/book">
             <Booking/>
           </Route>
-          <Route exact path="/home">
+          <Route exact path="/">
               <Home/>
               <Messages/>
+          </Route>
+          <Route exact="/Galery">
+              <Galery/>
           </Route>
         </Switch>
       </Router>

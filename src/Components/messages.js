@@ -7,14 +7,14 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -100px;
   text-align: center;
   strong {
     font-size: 1.25em;
   }
   div {
-    // color: ${props => props.theme.textColor};
-    color: White;
+    color: ${props => props.theme.textColor};
+    // color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 300;
     letter-spacing: 7px;
@@ -22,10 +22,11 @@ const MyTitleMessage = styled.h1`
       font-size: 100px;
     }
     .sub {
-      font-size: 27px;
+      font-size: 100px;
       letter-spacing: 2px;
+      font-weight: bold;
+      color: white;
     }
-    font-family:Algeria;
   }
 `;
 
@@ -37,13 +38,13 @@ const messages = () => (
           Hello, We are
           <br />
           <span>
-            <strong>JR Hi-Tech</strong>
+            <strong>Biso Production</strong>
           </span>
         </div>
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Design", "Mazagazin Design", "App Design", "Network Services"],
+              strings: ["PhotoGraphy", "Videography", "Commercial AD", "Music Videos", "Wedding"],
               autoStart: true,
               loop: true,
               delay: 50

@@ -1,0 +1,17 @@
+.biso-photo , .biso-Video{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 25px;
+}
+
+body{
+    /* background-color: black; */
+}
+
+.slideimg{
+    width: 590px;
+}
