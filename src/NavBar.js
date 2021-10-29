@@ -19,9 +19,9 @@ function NavBar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <Nav.Link href="#features" style={{color: "black", fontWeight:"bold"}}>About Us</Nav.Link>
+                <Nav.Link href="#features" style={{color: "black", fontWeight:"bold"}}>About Us{' '}<i className="fas fa-address-card"></i></Nav.Link>
                 <Nav.Link href="Galery" style={{color: "black", fontWeight:"bold"}}>Galery Photo</Nav.Link>
-                <NavDropdown title="Services" id="collasible-nav-dropdown" style={{color: "white"}}>
+                <NavDropdown title="Services" id="collasible-nav-dropdown" style={{color: "white", fontWeight: "bold"}}>
                     <NavDropdown.Item href="videoGraphy/" style={{color: "black"}}>LiveStream Services</NavDropdown.Item>
                     <NavDropdown.Item href="photography/" style={{color: "black"}}>Network Services</NavDropdown.Item>
                     <NavDropdown.Item href="design" style={{color: "black"}}>Design</NavDropdown.Item>
@@ -30,9 +30,9 @@ function NavBar() {
                 </NavDropdown>
                 </Nav>
                 <Nav>
-                <Nav.Link href="/book" style={{color: "black", fontWeight:"bold"}}>Book Us</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes" style={{color: "black", fontWeight:"bold"}}>
-                    Contact us
+                <Nav.Link href="/book" style={{color: "black", fontWeight:"bold"}}>Book Us <i className="fas fa-calendar"></i></Nav.Link>
+                <Nav.Link eventKey={2} href="/contactUs" style={{color: "black", fontWeight:"bold"}}>
+                    Contact us <i className = "fas fa-id-badge"></i>
                 </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

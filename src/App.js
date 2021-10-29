@@ -13,6 +13,7 @@ import Messages from './Components/messages';
 import Galery from './Pages/Galery'
 import './App.css'
 import Footer from './Pages/Footer';
+import ContactUs from './Pages/ContactUs';
 function App() {
   return (
     <div className="App">
@@ -34,8 +35,11 @@ function App() {
               <Galery/>
               <Galery/> */}
           </Route>
-          <Route exact="/Galery">
-              <Galery/>
+          <Route exact path="/Galery">
+            <Galery/>
+          </Route>
+          <Route exact path="/contactUs">
+              <ContactUs/>
           </Route>
         </Switch>
       </Router>

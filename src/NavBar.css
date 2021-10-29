@@ -1,5 +1,6 @@
 .navbar{
-    background-color: #ffc107; 
+    /* background-color: #ffc107;  */
+    background-color: rgb(184, 99, 99);
     /* #19181A; */
     /* a5b458; */
     /* #59253A; */
@@ -20,12 +21,21 @@ body{
 .navbar-light .navbar-brand:hover{
     color: red;
 }
+
+.navbar-light .navbar-brand:active{
+    color: green;
+}
 a .Nav-logo{
     width: 1cm;
     height: 1cm
 }
 
 .navbar-dark .navbar-nav .nav-link{
-    color: black; 
+    color:red; 
     font-weight: bold;
+}
+
+
+.fas.fa-calendar, .fas.fa-id-badge, .fas.fa-address-card{
+    color: white;
 }

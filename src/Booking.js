@@ -4,7 +4,7 @@ import {InlineWidget} from 'react-calendly';
 function Booking() {
     return (
         <div>
-              <InlineWidget url="https://calendly.com/itipojoel"/>
+            <InlineWidget url="https://calendly.com/reddyeyenga"/>
         </div>
     )
 }

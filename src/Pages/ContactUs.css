@@ -1,0 +1,35 @@
+i.fas.fa-envelope-open{
+    color:black; 
+    /* size: 200px; */
+    /* position: relative; */
+    /* margin-: 300px; */
+}
+
+.iconFa{
+    margin-left: 550px;
+    /* margin-left: 400px;
+    margin: 500px; */
+}
+p{
+    text-align: center;
+}
+.contact{
+    background-image: radial-gradient(circle, white, lightblue, white);
+    color:black;
+    /* text-align: center; */
+}
+
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-weight:bold;
+}
+.infoContact{
+    /* text-align: right; */
+    /* padding-top: -300px; */
+    margin-left: 900px;
+}
+
+/* input{
+    margin-right: 55px;
+} */
