@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropDown'; 
 import Nav from 'react-bootstrap/Nav';
-import logo from './Assets/images/logo_transparent.png'
+// import logo from './Assets/images/logo_transparent.png'
 // import logo from './Assets/images/favicon.png'
 import './NavBar.css';
 

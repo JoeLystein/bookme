@@ -4,22 +4,22 @@ import 'react-multi-carousel/lib/styles.css';
 // import slide1 from "../Assets/slides/slide1A.jpg"; 
 import slide2 from "../Assets/slides/slide2.png";
 import slide3 from "../Assets/slides/slide3.jpg";
-import slide1 from "../Assets/slides/slide1.jpg";
+// import slide1 from "../Assets/slides/slide1.jpg";
 
 import sl1 from "../Assets/slides/JR1.JPG"
 import sl2 from "../Assets/slides/JR2.jpg"
 import sl3 from "../Assets/slides/JR3.JPG"
 import sl4 from "../Assets/slides/JR4.JPG"
 import sl5 from "../Assets/slides/JR5.JPG"
-import slide4 from "../Assets/slides/slide4.jpg";
-import slide5 from "../Assets/slides/slide5.jpg";
-import slide6 from "../Assets/slides/slide6.jpg";
+// import slide4 from "../Assets/slides/slide4.jpg";
+// import slide5 from "../Assets/slides/slide5.jpg";
+// import slide6 from "../Assets/slides/slide6.jpg";
 
 import studio1 from "../Assets/slides/DSC04827.jpg";
-import studio2 from "../Assets/slides/DSC04828.jpg";
-import studio3 from "../Assets/slides/DSC04834.jpg";
-import studio4 from "../Assets/slides/DSC04835.jpg";
-import studio5 from "../Assets/slides/DSC04886.jpg";
+// import studio2 from "../Assets/slides/DSC04828.jpg";
+// import studio3 from "../Assets/slides/DSC04834.jpg";
+// import studio4 from "../Assets/slides/DSC04835.jpg";
+// import studio5 from "../Assets/slides/DSC04886.jpg";
 import './Galery.css'
 
 const responsive = {
@@ -46,25 +46,25 @@ const responsive = {
 
   
 function Galery(props) {
-    const data = [
-        {
-          image: slide2,
-          caption: "San Francisco"
-        },
-        {
-          image: slide3,
-          caption: "Scotland"
-        },
-      ];
+    // const data = [
+    //     {
+    //       image: slide2,
+    //       // caption: "San Francisco"
+    //     },
+    //     {
+    //       image: slide3,
+    //       // caption: "Scotland"
+    //     },
+    //   ];
     
-      const captionStyle = {
-        fontSize: '2em',
-        fontWeight: 'bold',
-      }
-      const slideNumberStyle = {
-        fontSize: '20px',
-        fontWeight: 'bold',
-      }
+    //   const captionStyle = {
+    //     fontSize: '2em',
+    //     // fontWeight: 'bold',
+    //   }
+    //   const slideNumberStyle = {
+    //     fontSize: '20px',
+    //     // fontWeight: 'bold',
+    //   }
     return (
         <div>
             <div className="biso-photo">Wedding photography</div>

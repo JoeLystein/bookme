@@ -11,11 +11,11 @@ import Carousel from "react-bootstrap/Carousel";
 // import slide6 from "../Assets/slides/slide6.jpg";
 
 import sl4 from "../Assets/slides/slide3.jpg";
-import sl1 from "../Assets/slides/JR1.JPG"
+// import sl1 from "../Assets/slides/JR1.JPG"
 import sl2 from "../Assets/slides/JR2.jpg"
-import sl3 from "../Assets/slides/JR3.JPG"
+// import sl3 from "../Assets/slides/JR3.JPG"
 // import sl4 from "../Assets/slides/JR4.JPG"
-import sl5 from "../Assets/slides/JR5.JPG"
+// import sl5 from "../Assets/slides/JR5.JPG"
 import './Home.css'
 // import { CarouselItem } from 'react-bootstrap';
 

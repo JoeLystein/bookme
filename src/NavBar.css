@@ -1,6 +1,7 @@
 .navbar{
     /* background-color: #ffc107;  */
     background-color: rgb(184, 99, 99);
+    background-color: orange;
     /* #19181A; */
     /* a5b458; */
     /* #59253A; */
@@ -25,10 +26,10 @@ body{
 .navbar-light .navbar-brand:active{
     color: green;
 }
-a .Nav-logo{
+/* a .Nav-logo{
     width: 1cm;
     height: 1cm
-}
+} */
 
 .navbar-dark .navbar-nav .nav-link{
     color:red; 

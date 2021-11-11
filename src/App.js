@@ -12,7 +12,7 @@ import Home from "./Pages/Home";
 import Messages from './Components/messages';
 import Galery from './Pages/Galery'
 import './App.css'
-import Footer from './Pages/Footer';
+import Footer from './Pages/FooterPage.jsx';
 import ContactUs from './Pages/ContactUs';
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
