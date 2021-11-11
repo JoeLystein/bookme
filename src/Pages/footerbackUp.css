@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,500;1,100;1,300;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+footer.footer-section{
+    background-color:  #ffc107;
+    background-color: rgb(184, 99, 99);
+    position: sticky;
+    width: 100%;
+}
+
+ .footer-section h3 {
+     padding-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    align-self: center !important;
+    /* color: #FF8400; */
+    color: black;
+    font-weight: bold;
+  }
+  .footer-section h4 {
+    
+font-size: 16px;
+line-height: 18px;
+padding-top: 10px;
+/* identical to box height, or 28px */
+
+
+/* color: #2B2D42; */
+color:white;
+  }
+  .footer-section p {
+    font-size: 11px;
+line-height: 13px;
+/* or 175% */
+/* color: #2B2D42; */
+color:white;
+  }
+
+  footer.mt-5{
+    color: white
+  }

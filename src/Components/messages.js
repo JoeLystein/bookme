@@ -16,13 +16,13 @@ const MyTitleMessage = styled.h1`
     color: ${props => props.theme.textColor};
     // color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 300;
+    font-weight: 100;
     letter-spacing: 7px;
     .main {
-      font-size: 100px;
+      font-size: 10px;
     }
     .sub {
-      font-size: 100px;
+      font-size: 10px;
       letter-spacing: 2px;
       font-weight: bold;
       color: white;

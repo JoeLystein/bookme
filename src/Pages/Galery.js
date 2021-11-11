@@ -11,9 +11,15 @@ import sl2 from "../Assets/slides/JR2.jpg"
 import sl3 from "../Assets/slides/JR3.JPG"
 import sl4 from "../Assets/slides/JR4.JPG"
 import sl5 from "../Assets/slides/JR5.JPG"
-// import slide4 from "../Assets/slides/slide4.jpg";
-// import slide5 from "../Assets/slides/slide5.jpg";
-// import slide6 from "../Assets/slides/slide6.jpg";
+import slide4 from "../Assets/slides/slide4.jpg";
+import slide5 from "../Assets/slides/slide5.jpg";
+import slide6 from "../Assets/slides/slide6.jpg";
+
+import studio1 from "../Assets/slides/DSC04827.jpg";
+import studio2 from "../Assets/slides/DSC04828.jpg";
+import studio3 from "../Assets/slides/DSC04834.jpg";
+import studio4 from "../Assets/slides/DSC04835.jpg";
+import studio5 from "../Assets/slides/DSC04886.jpg";
 import './Galery.css'
 
 const responsive = {
@@ -96,11 +102,19 @@ function Galery(props) {
                 <div> <img  className="d-block w-100" src={sl2} alt="slide2" /></div>
                 <div> <img  className="d-block w-100" src={sl1} alt="slide1" /></div>
                 <div> <img  className="d-block w-100" src={sl3} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl5} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl4} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl3} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl1} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl2} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl3} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl5} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl1} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={sl2} alt="slide1" /></div>
             </Carousel>
 
             <div className="biso-Video">
-                Biso Videography
-                
+                Biso Videography 
             </div>
 
             <div>
@@ -128,6 +142,7 @@ function Galery(props) {
                 // // deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
+               
             >
                 <div> <img  className="d-block w-100" src={slide2} alt="slide2" /></div>
                 <div> <img  className="d-block w-100" src={slide3} alt="slide1" /></div>
@@ -140,7 +155,44 @@ function Galery(props) {
             </Carousel>
             </div>
 
-            <div>Music Videos</div>
+            <div className="biso-studio">Our Studio Photoshooting</div>
+            <Carousel 
+                focusOnSelect={true}
+                partialVisible={true}
+                // controls={false} 
+                indicators 
+                // interval={200} 
+                pause={false}
+                swipeable={false}
+                draggable={false}
+                showDots={true}
+                responsive={responsive}
+                ssr={true} // means to render carousel on server-side.
+                infinite={true}
+                // // autoPlay ={true}
+                autoPlay={true}
+                autoPlaySpeed={4000}
+                keyBoardControl={true}
+                // customTransition="all .5"
+                transitionDuration={500}
+                containerClass="carousel-container"s
+                // removeArrowOnDeviceType={["tablet", "mobile"]}
+                // // deviceType={this.props.deviceType}
+                dotListClass="custom-dot-list-style"
+                itemClass="carousel-item-padding-40-px"
+            >
+               
+                {/* <div className="image1"> <img  className="d-block w-100" src={studio1} alt="slide1" /></div> */}
+                <div> <img  className="d-block w-100" src={studio1} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={studio1} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={studio1} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={studio1} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={studio1} alt="slide1" /></div>
+                <div> <img  className="d-block w-100" src={studio1} alt="slide1" /></div>
+                {/* <div> <img  className="d-block w-100" src={sl1} alt="slide1" /></div */}
+            </Carousel>
+
+            <div className="biso-Video">Biso Music Video</div>
         </div>
     )
 }

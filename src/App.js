@@ -25,15 +25,7 @@ function App() {
           </Route>
           <Route exact path="/">
               <Home/>
-              {/* <Messages/> */}
-              {/* <Galery/>
-              <Booking/>
-              <Galery/>
-              <Galery/>
-              <Galery/>
-              <Galery/>
-              <Galery/>
-              <Galery/> */}
+              <Messages/>
           </Route>
           <Route exact path="/Galery">
             <Galery/>
@@ -43,7 +35,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

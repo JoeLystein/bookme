@@ -35,7 +35,11 @@ a .Nav-logo{
     font-weight: bold;
 }
 
+a.nav-link.active{
+    color: red;
+}
 
-.fas.fa-calendar, .fas.fa-id-badge, .fas.fa-address-card{
+
+.fas.fa-calendar, .fas.fa-id-badge, .fas.fa-address-card, .fas.fa-download, .fa-dollar-sign{
     color: white;
 }
