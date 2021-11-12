@@ -15,7 +15,7 @@ const AboutUs = () => {
                 <h1 className="pt-3 pb-5 align-items-center">About Biso Production</h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
-                        <Col xs={12} md={5}>
+                        <Col xs={12} md={4} className="colimage">
                             <Row className="justify-content-center mb-2 mr-2">
                                 <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid/>
                             </Row>
