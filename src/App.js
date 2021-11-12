@@ -14,10 +14,18 @@ import Galery from './Pages/Galery'
 import './App.css'
 import Footer from './Pages/FooterPage.jsx';
 import ContactUs from './Pages/ContactUs';
+import Pricing from './Pages/Pricing'; 
+import AboutUs from './Pages/About/AboutUs'
 function App() {
   return (
     <div className="App">
       <NavBar/>
+      {/* <Home/>
+      <Messages/>
+      <Galery/>
+      <Pricing/>
+      <Booking/>
+      <ContactUs/> */}
       <Router>
         <Switch>
           <Route exact path="/book">
@@ -27,8 +35,14 @@ function App() {
               <Home/>
               <Messages/>
           </Route>
-          <Route exact path="/Galery">
+          <Route exact path="/Photogalery">
             <Galery/>
+          </Route>
+          <Route exact path="/aboutus">
+            <AboutUs/>
+          </Route>
+          <Route exact path="/Pricing">
+            <Pricing/>
           </Route>
           <Route exact path="/contactUs">
               <ContactUs/>

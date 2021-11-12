@@ -18,7 +18,7 @@ function NavBar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <Nav.Link href="#features" style={{color: "black", fontWeight:"bold"}}>About Us{' '}<i className="fas fa-address-card"></i></Nav.Link>
+                <Nav.Link href="/aboutus" style={{color: "black", fontWeight:"bold"}}>About Us{' '}<i className="fas fa-address-card"></i></Nav.Link>
                 <Nav.Link href="/Pricing" style={{color: "black", fontWeight:"bold"}}>Pricing <i className="fas fa-dollar-sign"></i></Nav.Link>
                 <NavDropdown title="Galeries" id="collasible-nav-dropdown" style={{color: "white", fontWeight:"bold"}}>
                     <NavDropdown.Item href="/photogalery" style={{color:"black"}}>Photo Galery</NavDropdown.Item>

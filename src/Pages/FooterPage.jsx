@@ -8,27 +8,27 @@ const FooterPage = () => {
         <MDBRow className="pt-5 mb-3 text-center d-flex justify-content-center">
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="#!" style={{color: "black"}}>About us</a>
+              <a href="/" style={{color: "black"}}>Home</a>
             </h6>
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="#!" style={{color: "black"}}>Products</a>
+              <a href="#!" style={{color: "black"}}>Services</a>
             </h6>
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="#!" style={{color: "black"}}>Awards</a>
+              <a href="/book" style={{color: "black"}}>Book Us</a>
             </h6>
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="#!" style={{color: "black"}}>Help</a>
+              <a href="/download" style={{color: "black"}}>Our Apps</a>
             </h6>
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="#!" style={{color: "black"}}>Contact</a>
+              <a href="/contactUs" style={{color: "black"}}>Contact</a>
             </h6>
           </MDBCol>
         </MDBRow>
