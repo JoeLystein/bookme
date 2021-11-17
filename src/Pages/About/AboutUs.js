@@ -20,7 +20,7 @@ const AboutUs = () => {
                                 <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid/>
                             </Row>
                         </Col>
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={8}>
                             <Row className=" align-items-start p-2 my-details rounded">
                                 Hi There! I am &nbsp;Reddy Eyenga
                                 <br/> A CEO of Biso Production and Rhema Gospel TV<br/>
