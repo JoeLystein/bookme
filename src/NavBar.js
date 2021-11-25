@@ -20,17 +20,17 @@ function NavBar() {
                 <Nav className="me-auto">
                 <Nav.Link href="/aboutus" style={{color: "black", fontWeight:"bold"}}>About Us{' '}<i className="fas fa-address-card"></i></Nav.Link>
                 <Nav.Link href="/Pricing" style={{color: "black", fontWeight:"bold"}}>Pricing <i className="fas fa-dollar-sign"></i></Nav.Link>
-                <NavDropdown title="Galeries" id="collasible-nav-dropdown" style={{color: "white", fontWeight:"bold"}}>
+                {/* <NavDropdown title="Galeries" id="collasible-nav-dropdown" style={{color: "white", fontWeight:"bold"}}>
                     <NavDropdown.Item href="/photogalery" style={{color:"black"}}>Photo Galery</NavDropdown.Item>
                     <NavDropdown.Item href="/weddinggalery" style={{color:"black"}}>Wedding Galery</NavDropdown.Item>
                     <NavDropdown.Item href="/videogalery" style={{color:"black"}}>Videos</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
                 <NavDropdown title="Services" id="collasible-nav-dropdown" style={{color: "white", fontWeight: "bold"}}>
-                    <NavDropdown.Item href="/videoGraphy" style={{color: "black"}}>Studio Photoshooting</NavDropdown.Item>
-                    <NavDropdown.Item href="photography/" style={{color: "black"}}>Wedding Videos</NavDropdown.Item>
-                    <NavDropdown.Item href="design" style={{color: "black"}}>Design</NavDropdown.Item>
+                    <NavDropdown.Item href="/photo" style={{color: "black"}}>Photoshooting</NavDropdown.Item>
+                    <NavDropdown.Item href="/video" style={{color: "black"}}>Videoshooting</NavDropdown.Item>
+                    <NavDropdown.Item href="/design" style={{color: "black"}}>Design</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Studio Rental</NavDropdown.Item>
+                    <NavDropdown.Item href="/studiorental">Studio Rental</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
                 <Nav>

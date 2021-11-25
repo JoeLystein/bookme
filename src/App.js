@@ -14,10 +14,13 @@ import Galery from './Pages/Galery'
 import './App.css'
 import Footer from './Pages/FooterPage.jsx';
 import ContactUs from './Pages/ContactUs';
-import Pricing from './Pages/Pricing'; 
+// import Pricing from './Pages/Pricing'; 
+import Pricing from './Pages/BisoPricing.jsx'; 
 import AboutUs from './Pages/About/AboutUs'
 import { Container } from 'react-bootstrap';
 import Fade from "react-reveal/Fade";
+import Photoshooting from "./Pages/Services/Photoshooting.jsx"; 
+import Prix from "./Components/Prix";
 function App(){
   return (
     <div className="App">
@@ -48,6 +51,10 @@ function App(){
 
           <Route exact path="/contactUs">
             <ContactUs/>
+          </Route>
+
+          <Route exact path="/photo">
+            <Photoshooting/>
           </Route>
 
         </Switch>

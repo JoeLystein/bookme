@@ -53,27 +53,19 @@ const FooterPage = () => {
               <a className="fb-ic">
                 <i className="fab fa-facebook-f fa-lg white-text mr-md-4"> </i>
               </a>
-              <a className="tw-ic">
-                <i className="fab fa-twitter fa-lg white-text mr-md-4"> </i>
-              </a>
-              <a className="gplus-ic">
-                <i className="fab fa-google-plus-g fa-lg white-text mr-md-4">
-
-                </i>
-              </a>
-              <a className="li-ic">
-                <i className="fab fa-linkedin-in fa-lg white-text mr-md-4"> </i>
+              <a className="yb-ic" href="https://www.youtube.com/playlist?list=PLMgLlAQzGCA_yyCAzLl7kKwKH7ypS70yo">
+                <i className="fab fa-youtube fa-lg white-text mr-md-4"></i>
+                 
               </a>
               <a className="ins-ic">
                 <i className="fab fa-instagram fa-lg white-text mr-md-4"> </i>
               </a>
-              <a className="pin-ic">
-                <i className="fab fa-pinterest fa-lg white-text"> </i>
-              </a>
+
             </div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
+      
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid style={{color: "black"}}>
           &copy; {new Date().getFullYear()} Copyright:
