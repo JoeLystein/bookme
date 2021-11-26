@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropDown'; 
 import Nav from 'react-bootstrap/Nav';
 // import logo from './Assets/images/logo_transparent.png'
+// import logo from './Assets/slides/bisologo.jpg'
 // import logo from './Assets/images/favicon.png'
 import './NavBar.css';
 
@@ -14,7 +15,15 @@ function NavBar() {
             <Navbar collapseOnSelect expand="lg">
             <Container>
             {/* <Navbar.Brand bsPrefix="navbar-brand" href="/"><img src={logo} className="Nav-logo" alt="logo"/></Navbar.Brand> */}
-            <Navbar.Brand bsPrefix="navbar-brand" href="/">Biso Production</Navbar.Brand>
+            <Navbar.Brand bsPrefix="navbar-brand" href="/">Biso Productions
+                {/* <img
+                    src={logo}
+                    width="50"
+                    height="50"
+                    className="d-inline-block align-top"
+                    alt="React Bootstrap logo"
+                /> */}
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">

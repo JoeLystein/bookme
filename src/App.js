@@ -6,7 +6,7 @@ import {
   // link
 } from "react-router-dom"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from "./NavBar"; 
+import NavBar from "./NavBar.jsx"; 
 import Booking from "./Booking";
 import Home from "./Pages/Home"; 
 import Messages from './Components/messages';
@@ -20,11 +20,28 @@ import AboutUs from './Pages/About/AboutUs'
 import { Container } from 'react-bootstrap';
 import Fade from "react-reveal/Fade";
 import Photoshooting from "./Pages/Services/Photoshooting.jsx"; 
-import Prix from "./Components/Prix";
+// import Prix from "./Components/Prix";
+import OurApps from "./Components/OurApps"; 
 function App(){
   return (
     <div className="App">
+      {/* <Router>
+        <Switch>
+          <Route exact path="/download">
+              <OurApps/>
+          </Route>
+        </Switch>
+      </Router> */}
+
       <NavBar/>
+      {/* <Home/>
+      <AboutUs/>
+      <Pricing/>
+      <Photoshooting/>
+      <video/>
+      <Booking/>
+      <OurApps/>
+      <ContactUs/> */}
       <Router>
         <Switch>
 
@@ -35,10 +52,6 @@ function App(){
 
           <Route exact path="/book">
             <Booking/>
-          </Route>
-
-          <Route exact path="/Photogalery">
-            <Galery/>
           </Route>
 
           <Route exact path="/aboutus">
@@ -57,8 +70,13 @@ function App(){
             <Photoshooting/>
           </Route>
 
+          <Route exact path="/download">
+            <OurApps/>
+          </Route>
+
         </Switch>
       </Router>
+
       <Footer/>
     </div>
  

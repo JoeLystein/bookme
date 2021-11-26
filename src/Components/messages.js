@@ -14,15 +14,15 @@ const MyTitleMessage = styled.h1`
   }
   div {
     color: ${props => props.theme.textColor};
-    // color: white;
+    color: black;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
     .main {
-      font-size: 10px;
+      font-size: 40px;
     }
     .sub {
-      font-size: 10px;
+      font-size: 20px;
       letter-spacing: 2px;
       font-weight: bold;
       color: white;
@@ -47,7 +47,7 @@ const messages = () => (
               strings: ["PhotoGraphy", "Videography", "Commercial AD", "Music Videos", "Wedding"],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 150
             }}
           />
         </div>
