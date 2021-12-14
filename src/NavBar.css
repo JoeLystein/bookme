@@ -1,46 +1,69 @@
-.navbar{
-    /* background-color: #ffc107;  */
-    background-color: rgb(184, 99, 99);
-    background-color: orange;
-    /* #19181A; */
-    /* a5b458; */
-    /* #59253A; */
-    /* #46344E */
-    /* 242582 */
-    /* #1A1A1D; */
-    /* //#272727; */
+.navbar {
+  background-color: black; 
+}
+.nav-theme {
+  background-color:white;
+  font-size: 20px;
+  
+}
+.animate-navbar {
+  box-shadow: 5px 5px 5px hsla(150, 20%, 8%, 0.973);
+  animation: moveDown 0.5s ease-in-out;
+  
 }
 
-body{
-    /* background-color: #9D8D8F; */
-}
-.navbar-light .navbar-brand{
-    color: white;
-    font-weight: bold;
-}
+/* .nav-links {
+  /* display: inline-block; */
+  /* height: 20px; */
+  /* background-color:white; */
+  /* color: black; will change color of text within the element */
+  /* //} */
 
-.navbar-light .navbar-brand:hover{
-    color: red;
-}
+.nav-links:hover {
+  background-color:orange; /*will change background-color of element on hover */
+  color: black; /*will change color of text within the element on hover */
+  }
 
-.navbar-light .navbar-brand:active{
-    color: green;
+.nav-links:active{
+  background-color: red;
+  color: red
 }
+/* body {
+  background-color: #9D8D8F;
+} */
+/* .navbar-light .navbar-brand {
+  color: white;
+  font-weight: bold;
+} */
+
+
+/* .navbar-light .navbar-brand:hover {
+  color: red;
+  border: 2px;
+  border-color: white;
+} */
+
+/* .navbar-light .navbar-brand:active {
+  color: green;
+} */
 /* a .Nav-logo{
     width: 1cm;
     height: 1cm
 } */
 
-.navbar-dark .navbar-nav .nav-link{
-    color:red; 
-    font-weight: bold;
-}
+/* .navbar-dark .navbar-nav .nav-link {
+  color: red;
+  font-weight: bold;
+} */
 
-a.nav-link.active{
-    color: red;
-}
+/* a.nav-link.active {
+  color: red;
+} */
 
-
-.fas.fa-calendar, .fas.fa-id-badge, .fas.fa-address-card, .fas.fa-download, .fa-dollar-sign{
-    color: white;
+.fas.fa-calendar,
+.fas.fa-id-badge,
+.fas.fa-address-card,
+.fas.fa-download,
+.fa-dollar-sign {
+  color: grey;
 }

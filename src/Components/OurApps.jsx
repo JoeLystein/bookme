@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../Components/OurApps.css"
 
 
-class OurApps extends React.Component {
+class OurApps extends Component {
     render() { 
         return (
             <div className="container-full">
@@ -36,8 +36,6 @@ class OurApps extends React.Component {
                     <div id="mycarousel" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                            {/* <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li> */}
                         </ol>
                         <div className="carousel-inner">
                             <div class="carousel-item active">
@@ -49,29 +47,7 @@ class OurApps extends React.Component {
                                         <p><a class="btn btn-lg btn-primary" href="https://www.spotify.com/us/download/android/" role="button">download</a></p>
                                     </div>
                                 </div>
-                            </div>
-                            {/* new */}
-                            {/* <div class="carousel-item">
-                                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                                <div class="container">
-                                    <div class="carousel-caption">
-                                        <h1>Another example headline.</h1>
-                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                                    </div>
-                                </div>
-                            </div> */}
-                            {/* <div class="carousel-item">
-                                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                                <div class="container">
-                                    <div class="carousel-caption text-right">
-                                        <h1>One more for good measure.</h1>
-                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                                    </div>
-                                </div>
-                            </div> */}
-
+                            </div>   
                         </div>    
                         <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -92,18 +68,21 @@ class OurApps extends React.Component {
                             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
                             <h2>JR Dev App</h2>
                             <p>Download this app if you want to contact our Developper</p>
+                            {/* eslint-disable-next-line */}
                             <p><a class="btn btn-secondary" href="#" role="button">Download &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
                             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
                             <h2>Bible App</h2>
                             <p>For Your Spirituall Need download our bible App</p>
+                            {/* eslint-disable-next-line */}
                             <p><a class="btn btn-secondary" href="#" role="button">Download &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
                             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
                             <h2>Rhema Gospel App</h2>
                             <p>This App Will help you to stay in connected to rhema gospel schedule and program.</p>
+                            {/* eslint-disable-next-line */}
                             <p><a class="btn btn-secondary" href="#" role="button">Download &raquo;</a></p>
                         </div>
                         </div>

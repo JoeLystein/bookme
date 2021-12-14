@@ -1,6 +1,6 @@
 import React from 'react';
 // import './ContactUs.css';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+// import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 function ContactUs() {
     return (
@@ -69,6 +69,7 @@ function ContactUs() {
                         </form>
 
                         <div class="text-center text-md-left">
+                        {/* eslint-disable-next-line */}
                             <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                         </div>
                         <div class="status"></div>

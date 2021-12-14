@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./BisoPricing.css"
 
 
-class BisoPricing extends React.Component {
+class BisoPricing extends Component {
     render() { 
         return (
         <div className="container py-3">
@@ -36,7 +36,9 @@ class BisoPricing extends React.Component {
 
                     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
                         <a class="me-3 py-2 text-dark text-decoration-none" href="/linkPDF">Video</a>
+                        {/* eslint-disable-next-line */}
                         <a class="me-3 py-2 text-dark text-decoration-none" href="#">Photo</a>
+                        {/* eslint-disable-next-line */}
                         <a class="me-3 py-2 text-dark text-decoration-none" href="#">Commercial</a>
                         {/* <a class="py-2 text-dark text-decoration-none" href="#">Reviews</a> */}
                     </nav>
