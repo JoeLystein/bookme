@@ -8,32 +8,16 @@ import bp4 from "../../Assets/slides/bisoP4.jpg";
 import bp5 from "../../Assets/slides/bisoP5.jpg";
 import bp6 from "../../Assets/slides/bisoP6.jpg";
 import bp7 from "../../Assets/slides/bisoP7.jpg";
-// import bp8 from "../../Assets/slides/bisoP8.jpg"
-// import bp5 from "../../Assets/slides/bisoP5.jpg"
-import img1 from './DSC_4301.JPG';
-import img2 from './DSC_4302copy.jpg';
-import img3 from './DSC_9609.JPG';
-import img4 from './DSC_4356.JPG'; 
-import img5 from "../../Assets/slides/slide1A.jpg"; 
-import img6 from "../../Assets/slides/slide2.png";
-import img7 from "../../Assets/slides/slide3.jpg";
-import img8 from "../../Assets/slides/slide1.jpg";
-import img9 from "../../Assets/slides/JR1.JPG"
-import img10 from "../../Assets/slides/JR2.jpg";
+import bp8 from "../../Assets/slides/bisoP8.jpg";
+import bp9 from "../../Assets/slides/bisoP9.jpg";
+import bp10 from "../../Assets/slides/bisoP10.jpeg";
+import bp11 from "../../Assets/slides/bisoP11.jpeg";
+import bp12 from "../../Assets/slides/bisoP12.jpeg";
+import bp13 from "../../Assets/slides/bisoP13.jpeg";
+import bp14 from "../../Assets/slides/bisoP14.jpg";
+import bp15 from "../../Assets/slides/bisoP15.jpg";
+import bp16 from "../../Assets/slides/bisoP16.jpg";
 
-import img11 from "../../Assets/slides/JR4.JPG";
-import img12 from "../../Assets/slides/JR5.JPG"
-import sl4 from "../../Assets/slides/JR4.JPG"
-import sl5 from "../../Assets/slides/JR5.JPG"
-// import slide4 from "../Assets/slides/slide4.jpg";
-// import slide5 from "../Assets/slides/slide5.jpg";
-// import slide6 from "../Assets/slides/slide6.jpg";
-
-// import studio1 from "../Assets/slides/DSC04827.jpg";
-// import studio2 from "../Assets/slides/DSC04828.jpg";
-// import studio3 from "../Assets/slides/DSC04834.jpg";
-// import studio4 from "../Assets/slides/DSC04835.jpg";
-// import studio5 from "../Assets/slides/DSC04886.jpg";
 
 class Photoshooting extends Component {
     render() { 
@@ -59,11 +43,14 @@ class Photoshooting extends Component {
                         <div class="row py-lg-5">
                             <div class="col-lg-6 col-md-8 mx-auto">
                                 <h1 class="fw-light">Photo Album</h1>
-                                <p class="lead text-muted">In this section you will find portrait picture and fashion pictures or, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                                <p class="lead text-muted">
+                                   We can give a message to your beautiful moment and show your beauty to everyone
+                                   <strong> Biso Productions</strong> is there for you
+                                </p>
                                 <p>
                                     <a href="/portrait" class="btn btn-primary my-2">Portrait</a>
                                     <a href="/fashion" class="btn btn-secondary my-2">Fashion</a>
-                                    <a href="/wedding" class="btn btn-success my-2">Wedding</a>
+                                    {/* <a href="/wedding" class="btn btn-success my-2">Wedding</a> */}
                                 </p>
                             </div>
                         </div>
@@ -74,15 +61,15 @@ class Photoshooting extends Component {
                             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">                                    
-                                        <img src={bp1} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                        <img src={bp1} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
-                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -90,7 +77,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={bp2} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp2} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -98,40 +85,7 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div className="col">
-                                    <div className="card mb-4 shadow-sm">
-                                         <img src={bp3} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
-                                        <div className="card-body">
-                                            {/* <p class="card-text">This is a wider card with.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
-                                                </div>
-                                                <small className="text-muted">2021</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col">
-                                    <div className="card mb-4 shadow-sm">
-                                         <img src={bp4} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
-                                        <div className="card-body">
-                                            {/* <p class="card-text">This is a wider card with.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
-                                                </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +94,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={bp5} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp7} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -148,7 +102,23 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp3} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -157,7 +127,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={bp6} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp4} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -165,7 +135,7 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -174,7 +144,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={bp7} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp8} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -182,7 +152,7 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -191,7 +161,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={sl4} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp11} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -199,17 +169,16 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
 
-
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={sl5} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp5} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -217,7 +186,7 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -227,7 +196,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={img10} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp9} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -235,7 +204,7 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -245,7 +214,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={img11} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp6} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -253,7 +222,25 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp10} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>
@@ -262,7 +249,7 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={img12} className="bd-placeholder-img card-img-top" width="100%" height="225" alt="logo"/>
+                                         <img src={bp13} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
@@ -270,7 +257,7 @@ class Photoshooting extends Component {
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
-                                                <small className="text-muted">2021</small>
+                                                <small className="text-muted">Biso Productions 2021</small>
                                             </div>
                                         </div>
                                     </div>

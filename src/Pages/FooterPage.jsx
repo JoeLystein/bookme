@@ -21,11 +21,11 @@ const FooterPage = () => {
               <a href="/book" style={{color: "white"}}>Book Us</a>
             </h6>
           </MDBCol>
-          <MDBCol md="2" className="b-3">
+          {/* <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
               <a href="/download" style={{color: "white"}}>Our Apps</a>
             </h6>
-          </MDBCol>
+          </MDBCol> */}
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
               <a href="/contactUs" style={{color: "white"}}>Contact</a>

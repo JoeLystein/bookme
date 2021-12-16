@@ -1,32 +1,30 @@
 .navbar {
-  background-color: black; 
+  background-color: black;
 }
 .nav-theme {
-  background-color:white;
+  background-color: white;
   font-size: 20px;
-  
 }
 .animate-navbar {
   box-shadow: 5px 5px 5px hsla(150, 20%, 8%, 0.973);
   animation: moveDown 0.5s ease-in-out;
-  
 }
 
 /* .nav-links {
   /* display: inline-block; */
-  /* height: 20px; */
-  /* background-color:white; */
-  /* color: black; will change color of text within the element */
-  /* //} */
+/* height: 20px; */
+/* background-color:white; */
+/* color: black; will change color of text within the element */
+/* //} */
 
 .nav-links:hover {
-  background-color:orange; /*will change background-color of element on hover */
+  background-color: orange; /*will change background-color of element on hover */
   color: black; /*will change color of text within the element on hover */
-  }
+}
 
-.nav-links:active{
+.nav-links:active {
   background-color: red;
-  color: red
+  color: red;
 }
 /* body {
   background-color: #9D8D8F;
@@ -35,7 +33,6 @@
   color: white;
   font-weight: bold;
 } */
-
 
 /* .navbar-light .navbar-brand:hover {
   color: red;

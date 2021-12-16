@@ -13,17 +13,17 @@ import ContactUs from './Pages/ContactUs';
 import Pricing from './Pages/BisoPricing.jsx'; 
 import AboutUs from './Pages/About/AboutUs'
 import Photoshooting from "./Pages/Services/Photoshooting.jsx"; 
+import Videoshooting from "./Pages/Services/videoshooting.jsx";
 import OurApps from "./Components/OurApps"; 
+import Fashion from "./common/Fashion.jsx";
 function App(){
   return (
     <div>
       <NavBar/>
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Home/>
-            <Messages/>
-          </Route>
+          <Route path="/fashion" component={Fashion}/>
+          <Route path="/video" component={Videoshooting}/>
 
           <Route path="/book">
             <Booking/>
@@ -47,6 +47,11 @@ function App(){
 
           <Route path="/download">
             <OurApps/>
+          </Route>
+
+          <Route exact path="/">
+            <Home/>
+            <Messages/>
           </Route>
 
         </Switch>

@@ -21,8 +21,9 @@ const NavBar = () =>{
     const [active, setActive] = useState("/home"); 
     return (
         <div>
+             {/* fixed='top' */}
             <Navbar 
-                fixed='top'
+               
                 collapseOnSelect expand="lg" 
                 className="animate-navbar nav-theme justify-content-between"
                 >
@@ -49,14 +50,14 @@ const NavBar = () =>{
                     <NavDropdown className="nav-links" style={{ color:"black", fontWeight: "bold"}} title="Services" id="collasible-nav-dropdown" >
                         <NavDropdown.Item href="/photo" style={{color: "black"}}>Photoshooting</NavDropdown.Item>
                         <NavDropdown.Item href="/video" style={{color: "black"}}>Videoshooting</NavDropdown.Item>
-                        <NavDropdown.Item href="/design" style={{color: "black"}}>Design</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="/studiorental">Studio Rental</NavDropdown.Item>
+                        {/* <NavDropdown.Item href="/design" style={{color: "black"}}>Design</NavDropdown.Item> */}
+                        {/* <NavDropdown.Divider />
+                        <NavDropdown.Item href="/studiorental">Studio Rental</NavDropdown.Item> */}
                     </NavDropdown>
                     </Nav>
                     <Nav>
                     <Nav.Link className="nav-links" href="/book" style={{ color:"black", fontWeight:"bold"}}>Book Us <i className="fas fa-calendar"></i></Nav.Link>
-                    <Nav.Link className="nav-links" href="/download" style={{ color:"black", fontWeight:"bold"}}>Our Apps <i className="fas fa-download"></i></Nav.Link>
+                    {/* <Nav.Link className="nav-links" href="/download" style={{ color:"black", fontWeight:"bold"}}>Our Apps <i className="fas fa-download"></i></Nav.Link> */}
                     <Nav.Link className="nav-links" eventKey={2} href="/contactUs" style={{ color:"black", fontWeight:"bold"}}>
                         Contact us <i className = "fas fa-id-badge"></i>
                     </Nav.Link>
