@@ -17,7 +17,18 @@ import bp13 from "../../Assets/slides/bisoP13.jpeg";
 import bp14 from "../../Assets/slides/bisoP14.jpg";
 import bp15 from "../../Assets/slides/bisoP15.jpg";
 import bp16 from "../../Assets/slides/bisoP16.jpg";
+import bp17 from "../../Assets/slides/bisoP17.jpeg";
+import bp18 from "../../Assets/slides/bisoP18.jpeg";
+import bp19 from "../../Assets/slides/bisoP19.jpeg";
+import bp20 from "../../Assets/slides/bisoP20.JPG";
+import bp21 from "../../Assets/slides/bisoP2.jpg";
+import bp22 from "../../Assets/slides/bisoP22.JPG";
+import bp23 from "../../Assets/slides/bisoP23.JPG";
 
+import c1 from "../../Assets/ceo/ceo1.jpeg";
+import c2 from "../../Assets/ceo/ceo2.jpeg";
+import c3 from "../../Assets/ceo/ceo3.jpeg";
+import c4 from "../../Assets/ceo/ceo4.jpeg";
 
 class Photoshooting extends Component {
     render() { 
@@ -66,8 +77,17 @@ class Photoshooting extends Component {
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
                                                 <small className="text-muted">Biso Productions 2021</small>
                                             </div>
@@ -84,6 +104,15 @@ class Photoshooting extends Component {
                                                 <div className="btn-group">
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
                                                 </div>
                                                 <small className="text-muted">Biso Productions 2021</small>
                                             </div>
@@ -91,6 +120,30 @@ class Photoshooting extends Component {
                                     </div>
                                 </div>
 
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp4} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
@@ -101,6 +154,15 @@ class Photoshooting extends Component {
                                                 <div className="btn-group">
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
                                                 </div>
                                                 <small className="text-muted">Biso Productions 2021</small>
                                             </div>
@@ -115,6 +177,15 @@ class Photoshooting extends Component {
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
@@ -127,11 +198,20 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={bp4} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                         <img src={bp19} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
@@ -144,11 +224,20 @@ class Photoshooting extends Component {
 
                                 <div className="col">
                                     <div className="card mb-4 shadow-sm">
-                                         <img src={bp8} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <img src={bp8} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
                                         <div className="card-body">
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
@@ -166,6 +255,15 @@ class Photoshooting extends Component {
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
@@ -183,6 +281,15 @@ class Photoshooting extends Component {
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
@@ -192,59 +299,6 @@ class Photoshooting extends Component {
                                     </div>
                                 </div>
 
-
-
-                                <div className="col">
-                                    <div className="card mb-4 shadow-sm">
-                                         <img src={bp9} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
-                                        <div className="card-body">
-                                            {/* <p class="card-text">This is a wider card with.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
-                                                </div>
-                                                <small className="text-muted">Biso Productions 2021</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                <div className="col">
-                                    <div className="card mb-4 shadow-sm">
-                                         <img src={bp6} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
-                                        <div className="card-body">
-                                            {/* <p class="card-text">This is a wider card with.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
-                                                </div>
-                                                <small className="text-muted">Biso Productions 2021</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                <div className="col">
-                                    <div className="card mb-4 shadow-sm">
-                                         <img src={bp10} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
-                                        <div className="card-body">
-                                            {/* <p class="card-text">This is a wider card with.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
-                                                </div>
-                                                <small className="text-muted">Biso Productions 2021</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
 
                                 <div className="col">
@@ -254,6 +308,16 @@ class Photoshooting extends Component {
                                             {/* <p class="card-text">This is a wider card with.</p> */}
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                
                                                 {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
                                                 </div>
@@ -263,6 +327,444 @@ class Photoshooting extends Component {
                                     </div>
                                 </div>
 
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp3} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp7} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp7} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp6} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp18} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp17} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp22} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp19} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp20} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp18} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp21} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp23} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp12} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp10} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={c3} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={bp11} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted">Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="col">
+                                    <div className="card mb-4 shadow-sm">
+                                         <img src={c4} className="bd-placeholder-img card-img-top" width="100%" height="500px" alt="logo"/>
+                                        <div className="card-body">
+                                            {/* <p class="card-text">This is a wider card with.</p> */}
+                                            <div className="d-flex justify-content-between align-items-center">
+                                                <div className="btn-group">
+                                                <i className="far fa-heart mr-2"></i> 
+                                                <a 
+                                                    href="https://instagram.com/bisoproductions?utm_medium=copy_link" 
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    style={{color:'#ff5252'}}
+                                                >
+                                                    <i className="fa fa-instagram"></i>
+                                                </a><br/>
+                                                {/* <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+                                                </div>
+                                                <small className="text-muted"  >Biso Productions 2021</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
 
                             </div>
                         </div>

@@ -3,7 +3,7 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 const FooterPage = () => {
   return (
-    <MDBFooter color="black" className="font-small pt-0">
+    <MDBFooter color='black' className="font-small pt-0">
       <MDBContainer>
         <MDBRow className="pt-5 mb-3 text-center d-flex justify-content-center">
           <MDBCol md="2" className="b-3">
@@ -37,13 +37,14 @@ const FooterPage = () => {
           <MDBCol md="8" sm="12" className="mt-5">
           {/* style={{ lineHeight: "1.7rem", color: "balck" }} */}
             <p style={{color: "white", lineHeight: "1.7rem"}}>
-              <strong>
+              {/* <strong> */}
                 Biso Productions is a friendly service company that accompanies you in your activities and your dream wedding.
                 Biso Productions the knowledge that never lies
                 Biso Productions is based on quality and satisfaction of its clients. Trust us and you will never be disappointed
-                <p style={{color:'red'}}>Happy New Year 2022</p>
-              </strong>
+               
+              {/* </strong> */}
             </p>
+            <p style={{color:'red'}}>Happy New Year 2022</p>
           </MDBCol>
         </MDBRow>
         <hr className="clearfix d-md-none rgba-white-light" style={{ margin: "10% 15% 5%" }} />
@@ -51,7 +52,7 @@ const FooterPage = () => {
           <MDBCol md="12">
             <div className="mb-5 flex-center">
             {/* eslint-disable-next-line */}
-              <a className="fb-ic">
+              <a className="fb-ic" href="https://www.facebook.com/pages/category/Product-Service/Biso-Productions-2084632831597676/" target="_blank">
                 <i className="fab fa-facebook-f fa-lg white-text mr-4"/>
               </a>
               <a className="yb-ic" href="https://www.youtube.com/playlist?list=PLMgLlAQzGCA_yyCAzLl7kKwKH7ypS70yo" target="_blank">
@@ -59,7 +60,7 @@ const FooterPage = () => {
                  
               </a>
               {/* eslint-disable-next-line */}
-              <a className="ins-ic">
+              <a className="ins-ic" href="https://instagram.com/bisoproductions?utm_medium=copy_link" target="_blank">
                 <i className="fab fa-instagram fa-lg white-text mr-4"/>
               </a>
 
@@ -68,7 +69,7 @@ const FooterPage = () => {
         </MDBRow>
       </MDBContainer>
       
-      <div className="footer-copyright text-center py-3">
+      <div className="footer-copyright text-center py-4">
         <MDBContainer fluid style={{color: "white"}}>
           &copy; {new Date().getFullYear()} Powered by 
           {/* eslint-disable-next-line */}

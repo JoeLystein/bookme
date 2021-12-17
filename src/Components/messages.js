@@ -14,7 +14,7 @@ const MyTitleMessage = styled.h1`
   }
   div {
     color: ${props => props.theme.textColor};
-    color: black;
+    color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
@@ -42,14 +42,15 @@ const messages = () => (
           </span>
         </div>
         <div className="sub">
+          <strong>
           <Typewriter
             options={{
               strings: ["PhotoGraphy", "Videography", "Commercial AD", "Music Videos", "Wedding"],
               autoStart: true,
               loop: true,
-              delay: 150
+              delay: 180
             }}
-          />
+          /></strong>
         </div>
       </div>
     </div>

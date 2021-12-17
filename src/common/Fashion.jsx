@@ -9,7 +9,7 @@ import fa6 from "../Assets/fashion/fashion6.jpeg";
 import fa7 from "../Assets/fashion/fashion7.jpeg"; 
 import fa8 from "../Assets/fashion/fashion8.jpeg"; 
 import fa9 from "../Assets/fashion/fashion9.jpeg"; 
-class Fashion extends React.Component {
+class Fashion extends Component {
     // constructor(props){
     //     super(props);
     //     this.state = {

@@ -16,12 +16,15 @@ import Photoshooting from "./Pages/Services/Photoshooting.jsx";
 import Videoshooting from "./Pages/Services/videoshooting.jsx";
 import OurApps from "./Components/OurApps"; 
 import Fashion from "./common/Fashion.jsx";
+import DataAPI from "./GettingData/DataAPI.js";
+import EventsB from "./Events/MainEventsB.js";
 function App(){
   return (
     <div>
       <NavBar/>
       <Router>
         <Switch>
+          <Route path='/mainevents' component={EventsB}/>
           <Route path="/fashion" component={Fashion}/>
           <Route path="/video" component={Videoshooting}/>
 
