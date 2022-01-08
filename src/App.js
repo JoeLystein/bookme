@@ -16,13 +16,75 @@ import Photoshooting from "./Pages/Services/Photoshooting.jsx";
 import Videoshooting from "./Pages/Services/videoshooting.jsx";
 import OurApps from "./Components/OurApps"; 
 import Fashion from "./common/Fashion.jsx";
-import DataAPI from "./GettingData/DataAPI.js";
+// import DataAPI from "./GettingData/DataAPI.js";
 import EventsB from "./Events/MainEventsB.js";
+import Container from 'react-bootstrap/Container';
+import videoshooting from "./Pages/Services/videoshooting.jsx";
 function App(){
   return (
     <div>
       <NavBar/>
-      <Router>
+      <Home/>
+      <Messages/>
+      <div>
+        <Container className="container-box rounded">
+          {/* <Fade duration={500}> */}
+            <AboutUs/>
+            <hr/>
+          {/* </Fade>   */}
+        </Container> 
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          {/* <Fade duration={500}> */}
+            <Pricing/>
+          {/* </Fade>   */}
+        </Container> 
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          {/* <Fade duration={500}> */}
+          <Photoshooting/>
+          {/* </Fade>   */}
+        </Container> 
+      </div>
+      
+      {/* <EventsB/> */}
+
+      <div>
+        <Container className="container-box rounded">
+          {/* <Fade duration={500}> */}
+          <Fashion/>
+          {/* </Fade>   */}
+        </Container> 
+      </div>
+    
+      <div>
+        <Container className="container-box rounded">
+          {/* <Fade duration={500}> */}
+          <videoshooting/>
+          {/* </Fade>   */}
+        </Container> 
+      </div>
+      
+      <div>
+        <Container className="container-box rounded">
+          {/* <Fade duration={500}> */}
+          <Booking/>
+          {/* </Fade>   */}
+        </Container> 
+      </div>
+      
+      <div>
+        <Container className="container-box rounded">
+          {/* <Fade duration={500}> */}
+          <ContactUs/>
+          {/* </Fade>   */}
+        </Container> 
+      </div>
+      {/* <Router>
         <Switch>
           <Route path='/mainevents' component={EventsB}/>
           <Route path="/fashion" component={Fashion}/>
@@ -58,7 +120,7 @@ function App(){
           </Route>
 
         </Switch>
-      </Router>
+      </Router> */}
 
       <Footer/>
     </div>
