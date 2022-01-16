@@ -20,10 +20,12 @@ import Fashion from "./common/Fashion.jsx";
 import EventsB from "./Events/MainEventsB.js";
 import Container from 'react-bootstrap/Container';
 import videoshooting from "./Pages/Services/videoshooting.jsx";
+import NewNavBar from "./common/newNavBar.jsx";
 function App(){
   return (
     <div>
       <NavBar/>
+      {/* <NewNavBar/>  */}
       <Home/>
       <Messages/>
       <div>

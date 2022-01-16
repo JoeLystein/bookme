@@ -12,6 +12,7 @@ const NavBar = () =>{
             <Navbar 
                 collapseOnSelect expand="md" 
                 className="animate-navbar nav-theme Justify-content-between"
+                variant = "tabs"
                 fixed="top"
             >
                 
