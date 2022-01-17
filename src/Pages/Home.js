@@ -17,9 +17,9 @@ import './Home.css'
 function Home() {
     return (
         <div>
-            <Carousel controls={false} indicators interval={2500} pause={false}>
-                <Carousel.Item >
-                    <img  className="d-block w-100 custom-img" src={bp1} alt="slide1" />
+            <Carousel controls={false} indicators interval={10000} pause={false}>
+                <Carousel.Item width="10%" height="225" >
+                    <img  className="d-block w-100 custom-img" src={bp1} alt="Responsive image" />
                     {/* <Carousel.Caption><h1>Wedding</h1></Carousel.Caption> */}
                 </Carousel.Item>
 
@@ -38,7 +38,7 @@ function Home() {
                     {/* <Carousel.Caption><h1>Wedding</h1></Carousel.Caption> */}
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item width="10%" height="225">
                     <img  className="d-block w-100 custom-img" src={bp5} alt="slide1" />
                     {/* <Carousel.Caption><h1>Wedding</h1></Carousel.Caption> */}
                 </Carousel.Item>

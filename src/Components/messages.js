@@ -38,8 +38,9 @@ const messages = () => (
           Hello, We are
           <br />
           <span>
-            <strong>Biso Production</strong>
+            <strong>Biso Productions</strong>
           </span>
+          <span><br/>We do </span>
         </div>
         <div className="sub">
           <strong>
@@ -48,7 +49,7 @@ const messages = () => (
               strings: ["PhotoGraphy", "Videography", "Commercial AD", "Music Videos", "Wedding"],
               autoStart: true,
               loop: true,
-              delay: 180
+              delay: 500
             }}
           /></strong>
         </div>

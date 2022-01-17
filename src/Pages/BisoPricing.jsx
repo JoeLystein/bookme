@@ -19,7 +19,7 @@ class BisoPricing extends Component {
 
                     <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img">
-                        <title>Biso Production</title>
+                        <title>Biso Productions</title>
                         <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 
                             14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 
@@ -31,7 +31,7 @@ class BisoPricing extends Component {
                             0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" 
                             fill="orange"></path>
                         </svg>
-                        <span className="fs-4" style={{color:"orange", fontWeight:"bold"}}>Biso Production</span>
+                        <span className="fs-4" style={{color:"orange", fontWeight:"bold"}}>Biso Productions</span>
                     </a>
 
                     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -45,7 +45,7 @@ class BisoPricing extends Component {
                 </div>
 
                 <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
-                    <h1 className="display-4 fw-normal text-dark">Video Pricing</h1>
+                    <h1 className="display-4 fw-normal text-warning" style={{color:'orange'}}>Video Pricing</h1>
                     <p className="fs-5 text-muted">
                         You have been planning, dreaming and praying for this day your entire life, 
                         and it has finally arrived!</p>
@@ -62,7 +62,7 @@ class BisoPricing extends Component {
                     <div class="col">
                         <div class="card mb-4 rounded-3 shadow-sm border-warning">
                             <div class="card-header py-3 bg-warning">
-                                <h4 class="my-0 fw-normal">Basic Package</h4>
+                                <h4 class="my-0 fw-normal text-primary">Basic Package</h4>
                             </div>
                             <div class="card-body">
                                 <h1 class="card-title pricing-card-title text-danger">$1500
@@ -84,7 +84,7 @@ class BisoPricing extends Component {
                     <div class="col">
                         <div class="card mb-4 rounded-3 shadow-sm border-warning">
                             <div class="card-header py-3 bg-warning">
-                                <h4 class="my-0 fw-normal">Upgrade Package</h4>
+                                <h4 class="my-0 fw-normal text-white">Upgrade Package</h4>
                             </div>
                             <div class="card-body">
                                 <h1 class="card-title pricing-card-title text-danger">$2000
@@ -146,11 +146,13 @@ class BisoPricing extends Component {
 
                         <tbody>
                             <tr>
-                                <th scope="row" class="text-start">Full Day Coverage</th>
+                                <th scope="row" class="text-start">Full Day Coverage ( 2 or More)</th>
+                                <td><svg class="bi" width="24" height="24"></svg></td>
+                                <td><svg class="bi" width="24" height="24"></svg></td>
                                 <td><svg class="bi" width="24" height="24"><use xlinkHref="#check"/></svg></td>
                             </tr>
                             <tr>
-                                <th scope="row" class="text-start">Videographer</th>
+                                <th scope="row" class="text-start">Videographer (2 or More)</th>
                                 <td></td>
                                 <td><svg class="bi" width="24" height="24"><use xlinkHref="#check"/></svg></td>
                                 <td><svg class="bi" width="24" height="24"><use xlinkHref="#check"/></svg></td>
@@ -159,7 +161,7 @@ class BisoPricing extends Component {
 
                         <tbody>
                             <tr>
-                                <th scope="row" class="text-start">Cameras</th>
+                                <th scope="row" class="text-start">Cameras (2 or More)</th>
                                 <td><svg class="bi" width="24" height="24"><use xlinkHref="#check"/></svg></td>
                                 <td><svg class="bi" width="24" height="24"><use xlinkHref="#check"/></svg></td>
                                 <td><svg class="bi" width="24" height="24"><use xlinkHref="#check"/></svg></td>

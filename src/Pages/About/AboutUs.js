@@ -13,18 +13,18 @@ const AboutUs = () => {
     return (
         <div id="about">
             <div className="about">
-                <h1 className="pt-4 pb-5 align-items-center"><strong><center>About Biso Production</center></strong></h1>
+                <h1 className="pt-4 pb-5 align-items-center" style={{color:'red'}}><strong><center>About Biso Productions</center></strong></h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
                         <Col xs={12} md={4} className="colimage">
-                            <Row className="justify-content-center mb-2 mr-2">
+                            <Row className="justify-content-center mb-6 mr-8">
                                 <img className="profile justify-content-end" alt="profile" width="100%" height="100%" src={Profile} thumbnail fluid/>
                             </Row>
                         </Col>
                         <Col xs={12} md={8}>
                             <Row className=" align-items-start p-2 my-details rounded">
                                 <p>Hi There! I am &nbsp;<strong>Reddy Eyenga</strong></p>
-                                <br/><p><strong>A CEO of Biso Production and Rhema Gospel TV</strong></p><br/>
+                                <br/><p style={{color:'red'}}><strong>A CEO of Biso Productions and RG TV Official</strong></p><br/>
                                
                                     <p style={{textAlign:"left"}}><strong>Reddy Eyenga Remajeur</strong> is a Director , Videographer, Coach / Leader, Producer ,<br/> 
                                     Camera Operators, CEO of Biso Productions and founder of Rhema Gospel. With <br/>over 5 years of 
