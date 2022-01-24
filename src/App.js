@@ -19,74 +19,38 @@ import Fashion from "./common/Fashion.jsx";
 // import DataAPI from "./GettingData/DataAPI.js";
 import EventsB from "./Events/MainEventsB.js";
 import Container from 'react-bootstrap/Container';
-import videoshooting from "./Pages/Services/videoshooting.jsx";
 import NewNavBar from "./common/newNavBar.jsx";
+import PricingHome from "./Pages/pricingHome.jsx";
+import WeddingPackage from "./Pages/WeddingPackage.jsx";
+import CommercialPackage from "./Pages/CommercialPackage.jsx";
+import MusicPackage from "./Pages/MusicPackage.jsx";
+import PhotoPricing from "./Pages/PhotoPricing.jsx";
 function App(){
   return (
     <div>
       <NavBar/>
+      {/* <Home/> */}
+      {/* <Messages/> */}
+      {/* <PricingHome/> */}
+      {/* <Booking/> */}
+      {/* <ContactUs/> */}
+
+
       {/* <NewNavBar/>  */}
-      <Home/>
-      <Messages/>
-      <div>
+      {/* <Home/> */}
+      {/* <Messages/> */}
+      {/* <PricingHome/> */}
+      
+      {/* <div>
         <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
             <AboutUs/>
             <hr/>
-          {/* </Fade>   */}
         </Container> 
-      </div>
+      </div> */}
 
-      <div>
-        <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
-            <Pricing/>
-          {/* </Fade>   */}
-        </Container> 
-      </div>
+      
 
-      <div>
-        <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
-          <Photoshooting/>
-          {/* </Fade>   */}
-        </Container> 
-      </div>
-      
-      {/* <EventsB/> */}
-
-      <div>
-        <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
-          <Fashion/>
-          {/* </Fade>   */}
-        </Container> 
-      </div>
-    
-      <div>
-        <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
-          <videoshooting/>
-          {/* </Fade>   */}
-        </Container> 
-      </div>
-      
-      <div>
-        <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
-          <Booking/>
-          {/* </Fade>   */}
-        </Container> 
-      </div>
-      
-      <div>
-        <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
-          <ContactUs/>
-          {/* </Fade>   */}
-        </Container> 
-      </div>
-      {/* <Router>
+      <Router>
         <Switch>
           <Route path='/mainevents' component={EventsB}/>
           <Route path="/fashion" component={Fashion}/>
@@ -100,10 +64,20 @@ function App(){
             <AboutUs/>
           </Route>
 
+          <Route path="/photopricing">
+            <PhotoPricing/>
+          </Route>
           <Route path="/Pricing">
-            <Pricing/>
+            <PricingHome/>
           </Route>
 
+          <Route path="/videopricing">
+            <Pricing/>
+          </Route>
+          
+          <Route path="/weddingpackage">
+            <WeddingPackage/>
+          </Route>
           <Route path="/contactUs">
             <ContactUs/>
           </Route>
@@ -116,15 +90,23 @@ function App(){
             <OurApps/>
           </Route>
 
-          <Route exact path="/">
+          <Route path="/commercialpackage">
+            <CommercialPackage/>
+          </Route>
+
+          <Route path="/musicpackage">
+            <MusicPackage/>
+          </Route>
+          <Route exact path="/Home">
             <Home/>
             <Messages/>
           </Route>
 
         </Switch>
-      </Router> */}
+      </Router> 
 
       <Footer/>
+      
     </div>
  
   );

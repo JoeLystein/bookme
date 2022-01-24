@@ -7,7 +7,8 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -100px;
+  margin-top: 3rem;
+  // margin-left: 3rem;
   text-align: center;
   strong {
     font-size: 1.25em;
@@ -34,15 +35,15 @@ const messages = () => (
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
-        <div className="main text-center mb-3">
-          Hello, We are
+        <div className="main text-center mb-3" style={{marginLeft:"-52rem"}}>
+          <strong>HELLO, WE ARE</strong>
           <br />
           <span>
             <strong>Biso Productions</strong>
           </span>
-          <span><br/>We do </span>
+          <span><br/><strong>We do</strong></span>
         </div>
-        <div className="sub">
+        <div className="sub" style={{marginLeft:"-52rem"}}>
           <strong>
           <Typewriter
             options={{

@@ -19,10 +19,10 @@ class Fashion extends Component {
     render() { 
         return (
         <div className="container bg-light" >
-            <section class="py-5 text-center container bg-dark">
+            <section class="py-5 text-center container bg-white">
                     <div class="row py-lg-5">
                         <div class="col-lg-6 col-md-8 mx-auto">
-                            <h1 class="fw-light" style={{color:"white"}}>Fashion Album</h1>
+                            <h1 class="fw-light" style={{color:"black"}}>Fashion Album</h1>
                             <p class="lead text-muted">
                                 Business name for the fashion
                                 <strong> Joel Jeans</strong> is there for you

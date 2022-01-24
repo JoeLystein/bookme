@@ -36,15 +36,17 @@ const FooterPage = () => {
         <MDBRow className="d-flex text-center justify-content-center mb-md-0 mb-4">
           <MDBCol md="8" sm="12" className="mt-5">
           {/* style={{ lineHeight: "1.7rem", color: "balck" }} */}
+          <p style={{color:'orange'}}>&copy; copyright Biso Productions</p>
             <p style={{color: "white", lineHeight: "1.7rem"}}>
               {/* <strong> */}
-                Biso Productions is a friendly service company that accompanies you in your activities and your dream wedding.
+                Biso Productions is a friendly service company that accompanies you in your activities and your dream project.
                 Biso Productions the knowledge that never lies
-                Biso Productions is based on quality and satisfaction of its clients. Trust us and you will never be disappointed
+                Biso Productions is based on quality and satisfaction of its clients. 
+                <p>Trust us and you will never be disappointed</p>
                
               {/* </strong> */}
             </p>
-            <p style={{color:'red'}}>Happy New Year 2022</p>
+            <p style={{color:'red'}}>Have a Nice {new Date().toLocaleDateString('en-us',{weekday:'long'})} !</p>
           </MDBCol>
         </MDBRow>
         <hr className="clearfix d-md-none rgba-white-light" style={{ margin: "10% 15% 5%" }} />
