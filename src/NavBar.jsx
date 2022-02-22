@@ -40,7 +40,7 @@ const NavBar = () =>{
                         <NavDropdown.Item href="photo" style={{color: "black"}}>Photoshooting</NavDropdown.Item>
                         <NavDropdown.Item href="video" style={{color: "black"}}>Videoshooting</NavDropdown.Item>
                     </NavDropdown>
-                    {/* <Nav.Link className="nav-links" href="#mainevents" style={{ color:"black", fontWeight:"bold"}}>News</Nav.Link> */}
+                    <Nav.Link className="nav-links" href="mainevents" style={{ color:"black", fontWeight:"bold"}}>News</Nav.Link>
                 </Nav>
                     <Nav>
                     <Nav.Link className="nav-links" href="book" style={{ color:"black", fontWeight:"bold"}}>Book us </Nav.Link>

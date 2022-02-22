@@ -3,7 +3,7 @@ import BisoProEvents from './BisoProEvents';
 
 function MainEventsB(){
     return (
-        <div>
+        <div className='container'>
             Main events Page
             <BisoProEvents/>
         </div>
